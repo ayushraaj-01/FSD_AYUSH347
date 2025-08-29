@@ -4,11 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            
+            
+        }
+        td{
+            background-color: rgb(159, 159, 221);
+        }
+        th,td{
+            background: 1px solid black;
+            border-radius: 10px;
+            border-style: dashed;
+            padding: 10px;
+            border-spacing: 30px;
+        }
+        th,td{
+            text-align: center;
+        }
+        td:nth-child(even){
+            background-color: rgb(92, 66, 116);
+            
+        }
+        tr:nth-child(odd){
+            background-color: rgb(225, 127, 127);
+        }
+        td:hover{
+            background-color: yellowgreen;
+        }
+    </style>
 </head>
 <body>
-    <h1>hello</h1>
+    <!-- <h1>hello</h1>
     <h2>i am </h2>
-    <h3> Ayush RAj</h3>
+    <h3> Ayush RAj</h3> -->
     
+<!-- table -->
+
+<table style="width: 250px;">
+    <caption>Student Details</caption>
+   <colgroup>
+    <tr>
+        <th colspan="2">Name</th>
+    
+        <th>Roll No</th>
+    </tr>
+    </colgroup>
+    <tr>
+        <td>1.</th>
+        <td>Ayush</th>
+        <td>345</th>
+    </tr>
+
+     <tr>
+        <td>2.</th>
+        <td>Asiss</th>
+        <td>345</th>
+    </tr>
+
+     <tr>
+        <td>3.</th>
+        <td>Avi</th>
+        <td>345</th>
+    </tr>
+
+</table>
+
+<!-- ordered list -->
+ <ol>
+    <li>coffee</li>
+    <li>tea</li>
+    <li>milk</li>
+ </ol>
+
+ <!-- description -->
+  <dl>
+    <dt>coffee</dt>
+    <dt>balck hot drinks</dt>
+    <dt>milk</dt>
+    <dt>drinks</dt>
+  </dl>
+
 </body>
 </html>
